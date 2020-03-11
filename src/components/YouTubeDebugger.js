@@ -25,6 +25,8 @@ export default class YouTubeDebugger extends Component {
         })
     }
 
+    // Deeply merging
+    // ...this.state.settings returns all the keys and values from within that object.
     handleResClick = () => {
         this.setState({
             settings: {
