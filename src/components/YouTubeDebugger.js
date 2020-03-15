@@ -26,7 +26,6 @@ export default class YouTubeDebugger extends Component {
             })
         }
 
-
     handleClickResolution = () => {
         this.setState({
             settings: {
